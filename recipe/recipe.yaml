@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.1.2"
+  version: "0.1.3"
 
 package:
   name: mujoco-robotics-uri
@@ -9,7 +9,7 @@ package:
 
 source:
   - url: https://github.com/gbionics/mujoco-robotics-uri/archive/refs/tags/v${{ version }}.tar.gz
-    sha256: 62c27e459a1e5c9e9e3f9ca886890c8c1d73bacfffd4ce1f7d77868b7d77dead
+    sha256: 6e4329fe7659ca6a8faa4cb3be5fc05fdd5c75afbf8c51b3d28e3260421fa091
 
 build:
   number: 0
